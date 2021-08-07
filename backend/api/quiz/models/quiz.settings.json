@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "name": "Quiz"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "questions": {
+      "collection": "questions",
+      "via": "quiz"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
