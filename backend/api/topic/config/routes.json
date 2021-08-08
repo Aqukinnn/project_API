@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/quizzes",
-      "handler": "quiz.find",
+      "path": "/topics",
+      "handler": "topic.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/quizzes/count",
-      "handler": "quiz.count",
+      "path": "/topics/count",
+      "handler": "topic.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/quizzes/:id",
-      "handler": "quiz.findOne",
+      "path": "/topics/:id",
+      "handler": "topic.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/quizzes",
-      "handler": "quiz.create",
+      "path": "/topics",
+      "handler": "topic.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/quizzes/:id",
-      "handler": "quiz.update",
+      "path": "/topics/:id",
+      "handler": "topic.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/quizzes/:id",
-      "handler": "quiz.delete",
+      "path": "/topics/:id",
+      "handler": "topic.delete",
       "config": {
         "policies": []
       }
