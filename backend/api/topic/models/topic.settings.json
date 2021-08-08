@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "topics",
   "info": {
-    "name": "Topic"
+    "name": "Topic",
+    "description": ""
   },
   "options": {
     "increments": true,
