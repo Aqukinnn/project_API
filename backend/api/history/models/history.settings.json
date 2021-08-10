@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "rewards",
+  "collectionName": "histories",
   "info": {
-    "name": "Rewards",
+    "name": "History",
     "description": ""
   },
   "options": {
@@ -15,8 +15,8 @@
     "name": {
       "type": "string"
     },
-    "point": {
-      "type": "integer"
+    "username": {
+      "type": "string"
     }
   }
 }
